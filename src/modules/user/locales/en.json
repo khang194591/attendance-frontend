@@ -1,0 +1,72 @@
+{
+  "entity": "staff",
+  "pageTitle": "Staff Management",
+  "formMode": {
+    "create": "Create Staff",
+    "update": "Update Staff"
+  },
+  "form": {
+    "name": {
+      "label": "Name",
+      "placeholder": "Enter name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter email"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Enter phone"
+    },
+    "birthDay": {
+      "label": "Birth Day",
+      "placeholder": "Enter birth day"
+    },
+    "gender": {
+      "label": "Gender",
+      "placeholder": "Select gender"
+    },
+    "bank": {
+      "label": "Bank",
+      "placeholder": "Select bank"
+    },
+    "bankAccount": {
+      "label": "Bank account",
+      "placeholder": "Enter bank account"
+    },
+    "citizenId": {
+      "label": "Citizen ID",
+      "placeholder": "Enter citizen ID"
+    },
+    "role": {
+      "label": "Role",
+      "placeholder": "Select role"
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Select status"
+    },
+    "province": {
+      "label": "Province",
+      "placeholder": "Select province"
+    },
+    "district": {
+      "label": "District",
+      "placeholder": "Select district"
+    },
+    "ward": {
+      "label": "Ward",
+      "placeholder": "Select ward"
+    }
+  },
+  "status": {
+    "active": "Active",
+    "pending": "Pending",
+    "inactive": "Inactive"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female",
+    "other": "Other"
+  }
+}

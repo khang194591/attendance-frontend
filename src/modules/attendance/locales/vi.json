@@ -1,0 +1,29 @@
+{
+  "entity": "chấm công",
+  "pageTitle": "Quản lý chấm công",
+  "formMode": {
+    "create": "Thêm chấm công",
+    "update": "Cập nhật chấm công"
+  },
+  "form": {
+    "userId": {
+      "label": "Người dùng",
+      "placeholder": "Chọn người dùng"
+    },
+    "date": {
+      "label": "Ngày",
+      "placeholder": "Chọn ngày"
+    },
+    "time": {
+      "label": "Thời gian"
+    }
+  },
+  "table": {
+    "late": "Muộn, về sớm",
+    "absence": "Nghỉ",
+    "user": "Nhân viên",
+    "checkIn": "Giờ vào",
+    "checkOut": "Giờ ra",
+    "date": "Ngày"
+  }
+}

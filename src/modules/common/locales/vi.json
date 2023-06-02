@@ -1,0 +1,56 @@
+{
+  "status": {
+    "success": "Thành công",
+    "error": "Xảy ra lỗi",
+    "notification": "Thông báo"
+  },
+  "button": {
+    "ok": "OK",
+    "add": "Thêm",
+    "save": "Lưu",
+    "edit": "Sửa",
+    "update": "Cập nhật",
+    "cancel": "Hủy",
+    "confirm": "Xác nhận",
+    "delete": "Xóa",
+    "reset": "Đặt lại",
+    "search": "Tìm kiếm",
+    "create": "Tạo",
+    "upload": "Tải lên",
+    "view": "Xem",
+    "submit": "Xác nhận",
+    "action": "Hành động",
+    "export": "Tải xuống",
+    "import": "Tải lên",
+    "filter": "Lọc",
+    "showFilter": "Hiển thị bộ lọc",
+    "hideFilter": "Ẩn bộ lọc",
+    "goHome": "Về trang chủ"
+  },
+  "module": {
+    "label": {
+      "home": "Trang chủ",
+      "user": "Quản lý người dùng",
+      "setting": "Cài đặt",
+      "role": "Cài đặt vai trò",
+      "attendance": "Quản lý chấm công"
+    }
+  },
+  "language": {
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "response": {
+    "createSuccess": "Thêm {field} thành công",
+    "updateSuccess": "Cập nhật {field} thành công",
+    "deleteSuccess": "Xóa {field} thành công"
+  },
+  "timeRange": {
+    "separator": "Đến",
+    "start": "Bắt đầu",
+    "end": "Kết thúc"
+  },
+  "error": {
+    "forbiddenMessage": "Bạn không có quyền truy cập vào trang này!"
+  }
+}

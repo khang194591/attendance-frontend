@@ -1,0 +1,25 @@
+{
+  "status": {
+    "success": "Thành công",
+    "error": "Có lỗi",
+    "notification": "Thông báo"
+  },
+  "action": {
+    "signIn": "Đăng nhập",
+    "signUp": "Đăng ký",
+    "signOut": "Đăng xuất"
+  },
+  "form": {
+    "email": {
+      "label": "Email",
+      "placeholder": "Nhập địa chỉ mail"
+    },
+    "password": {
+      "label": "Mật khẩu",
+      "placeholder": "Nhập mật khẩu"
+    }
+  },
+  "message": {
+    "signInSuccess": "Đăng nhập thành công"
+  }
+}

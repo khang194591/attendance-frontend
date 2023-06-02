@@ -1,0 +1,59 @@
+@use 'sass:math';
+@use 'sass:map';
+
+$--colors: (
+  'white': #ffffff,
+  'black': #000000,
+  'primary': (
+    'base': #6366f1,
+  ),
+  'success': (
+    'base': #22c55e,
+  ),
+  'warning': (
+    'base': #f97316,
+  ),
+  'danger': (
+    'base': #ef4444,
+  ),
+  'error': (
+    'base': #ef4444,
+  ),
+  'info': (
+    'base': #14b8a6,
+  ),
+);
+
+$--border-radius: (
+  'base': '8px',
+  'small': '4px',
+  'round': '24px',
+  'circle': '100%',
+);
+
+$--pagination: (
+  'border-radius': '6px',
+);
+
+// we can add this to custom namespace, default is 'el'
+@forward 'element-plus/theme-chalk/src/mixins/config.scss' with (
+  $namespace: 'el'
+);
+
+// You should use them in scss, because we calculate it by sass.
+// comment next lines to use default color
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  // do not use same name, it will override.
+  $colors: $--colors,
+  $border-radius: $--border-radius,
+  $pagination: $--pagination
+);
+
+// if you want to import all
+// @use "element-plus/theme-chalk/src/index.scss" as *;
+
+// You can comment it to hide debug info.
+// @debug $--colors;
+
+// custom dark variables
+@use './dark.scss';

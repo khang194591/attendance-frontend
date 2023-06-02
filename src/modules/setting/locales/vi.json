@@ -1,0 +1,24 @@
+{
+  "role": {
+    "pageTitle": "Cài đặt vai trò",
+    "display": {
+      "resource": "Tài nguyên"
+    },
+    "resource": {
+      "user": "Người dùng",
+      "role": "Vai trò",
+      "setting": "Cài đặt",
+      "attendance": "Chấm công"
+    },
+    "action": {
+      "read": "Đọc",
+      "create": "Thêm",
+      "update": "Sửa",
+      "delete": "Xóa",
+      "read_personal": "Đọc cá nhân",
+      "create_personal": "Thêm cá nhân",
+      "update_personal": "Sửa cá nhân",
+      "delete_personal": "Xóa cá nhân"
+    }
+  }
+}

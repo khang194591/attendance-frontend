@@ -1,0 +1,29 @@
+{
+  "entity": "attendance",
+  "pageTitle": "Attendance Management",
+  "formMode": {
+    "create": "Create attendance",
+    "update": "Update attendance"
+  },
+  "form": {
+    "userId": {
+      "label": "User",
+      "placeholder": "Select user"
+    },
+    "date": {
+      "label": "Date",
+      "placeholder": "Select date"
+    },
+    "time": {
+      "label": "Time"
+    }
+  },
+  "table": {
+    "late": "Late",
+    "absence": "Absence",
+    "user": "User",
+    "checkIn": "Check in",
+    "checkOut": "Check out",
+    "date": "Date"
+  }
+}

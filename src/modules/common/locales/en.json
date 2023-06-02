@@ -1,0 +1,56 @@
+{
+  "status": {
+    "success": "Success",
+    "error": "Error",
+    "notification": "Notification"
+  },
+  "button": {
+    "ok": "OK",
+    "add": "Add",
+    "save": "Save",
+    "edit": "Edit",
+    "update": "Update",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "reset": "Reset",
+    "search": "Search",
+    "create": "Create",
+    "upload": "Upload",
+    "view": "View",
+    "submit": "Submit",
+    "action": "Action",
+    "export": "Export",
+    "import": "Import",
+    "filter": "Filter",
+    "showFilter": "Show filter",
+    "hideFilter": "Hide filter",
+    "goHome": "Go back home"
+  },
+  "module": {
+    "label": {
+      "home": "Home",
+      "user": "User management",
+      "setting": "Setting",
+      "role": "Role Setting",
+      "attendance": "Attendance management"
+    }
+  },
+  "language": {
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "response": {
+    "createSuccess": "Create {field} successfully",
+    "updateSuccess": "Update {field} successfully",
+    "deleteSuccess": "Delete {field} successfully"
+  },
+  "timeRange": {
+    "separator": "To",
+    "start": "Start time",
+    "end": "End Time"
+  },
+  "error": {
+    "forbiddenMessage": "You don't have permissions to access this page!"
+  }
+}

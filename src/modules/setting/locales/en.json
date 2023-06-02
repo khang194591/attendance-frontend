@@ -1,0 +1,24 @@
+{
+  "role": {
+    "pageTitle": "Setting Role",
+    "display": {
+      "resource": "Resource"
+    },
+    "resource": {
+      "user": "User",
+      "role": "Role",
+      "setting": "Setting",
+      "attendance": "Attendance"
+    },
+    "action": {
+      "read": "Read",
+      "create": "Create",
+      "update": "Update",
+      "delete": "Delete",
+      "read_personal": "Read personal",
+      "create_personal": "Create personal",
+      "update_personal": "Update personal",
+      "delete_personal": "Delete personal"
+    }
+  }
+}

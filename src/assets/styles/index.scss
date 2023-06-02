@@ -1,0 +1,22 @@
+// import dark theme
+@use "element-plus/theme-chalk/src/dark/css-vars.scss" as *;
+
+// :root {
+//   --el-color-primary: red;
+// }
+
+body {
+  font-family: "Inter", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.el-date-editor {
+  width: 100% !important;
+  display: flex !important;
+}
+
+.el-select {
+  width: 100% !important;
+}

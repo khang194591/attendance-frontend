@@ -1,0 +1,72 @@
+{
+  "entity": "người dùng",
+  "pageTitle": "Quản lý người dùng",
+  "formMode": {
+    "create": "Thêm người dùng",
+    "update": "Cập nhật người dùng"
+  },
+  "form": {
+    "name": {
+      "label": "Họ tên",
+      "placeholder": "Nhập họ tên"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Nhập địa chỉ mail"
+    },
+    "phone": {
+      "label": "Số điên thoại",
+      "placeholder": "Nhập số điện thoại"
+    },
+    "birthDay": {
+      "label": "Ngày sinh",
+      "placeholder": "Nhập ngày sinh"
+    },
+    "gender": {
+      "label": "Giới tính",
+      "placeholder": "Chọn giới tính"
+    },
+    "bank": {
+      "label": "Ngân hàng",
+      "placeholder": "Chọn ngân hàng"
+    },
+    "bankAccount": {
+      "label": "Tài khoản ngân hàng",
+      "placeholder": "Nhập tài khoản ngân hàng"
+    },
+    "citizenId": {
+      "label": "CCCD/CMND",
+      "placeholder": "Nhập số CCCD/CMND"
+    },
+    "role": {
+      "label": "Vai trò",
+      "placeholder": "Chọn vai trò"
+    },
+    "province": {
+      "label": "Tỉnh",
+      "placeholder": "Chọn tỉnh"
+    },
+    "district": {
+      "label": "Huyện",
+      "placeholder": "Chọn huyện"
+    },
+    "ward": {
+      "label": "Xã",
+      "placeholder": "Chọn xã"
+    },
+    "status": {
+      "label": "Trạng thái",
+      "placeholder": "Chọn trạng thái"
+    }
+  },
+  "status": {
+    "active": "Hoạt động",
+    "pending": "Đang chờ",
+    "inactive": "Ngừng hoạt động"
+  },
+  "gender": {
+    "male": "Nam",
+    "female": "Nữ",
+    "other": "Khác"
+  }
+}
