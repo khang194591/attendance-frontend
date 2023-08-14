@@ -5,14 +5,20 @@ import { computed, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useAbsenceStore } from './absence.store'
 import { AbsenceDto } from './constants/absence.dto'
+import { useAuthStore } from '../auth/auth.store'
 
 export const useAbsenceForm = () => {
   const { t } = useI18n()
 
   const store = useAbsenceStore()
+  const authStore = useAuthStore()
 
   const formData = computed(() => store.absenceForm.data)
-  const form = useForm<AbsenceDto>({})
+  const form = useForm<AbsenceDto>({
+    initialValues: {
+      userId: authStore.currentUser?.id,
+    },
+  })
 
   const onSubmit = form.handleSubmit(async (values) => {
     const loading = ElLoading.service({

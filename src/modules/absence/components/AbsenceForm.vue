@@ -7,15 +7,11 @@
     :before-close="onClose"
   >
     <ElForm label-position="top" class="grid grid-cols-2 gap-x-6">
-      <ElFormItem
-        v-if="authStore.currentUser.roleId === 1"
-        :label="$t('attendance.form.userId.label')"
-        :error="form.errors.value.userId"
-      >
+      <ElFormItem :label="$t('attendance.form.userId.label')" :error="form.errors.value.userId">
         <ElSelect
           v-model="userId"
           filterable
-          :disabled="!!store.absenceForm.id"
+          :disabled="!!store.absenceForm.id || !authStore.currentUser?.super"
           :placeholder="$t('attendance.form.userId.placeholder')"
         >
           <ElOption v-for="item in userOptions" :key="item.value" :label="item.label" :value="item.value" />
@@ -63,7 +59,6 @@ const formMode = computed(() => store.absenceForm.mode)
 const userId = form.useFieldModel('userId')
 const date = form.useFieldModel('date')
 const reason = form.useFieldModel('reason')
-const status = form.useFieldModel('status')
 
 const isShow = computed({
   get: () => store.absenceForm.open,

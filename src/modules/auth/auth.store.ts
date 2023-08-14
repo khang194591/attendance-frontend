@@ -29,7 +29,6 @@ export const useAuthStore = defineStore('auth', () => {
   function hasSomePermissions(permissions: string[]) {
     const userPermissions = currentUser.value?.role?.permissions || []
 
-
     return intersection(userPermissions, permissions).length !== 0
   }
 

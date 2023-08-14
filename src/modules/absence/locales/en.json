@@ -1,0 +1,31 @@
+{
+    "entity": "absence",
+    "pageTitle": "Absence Management",
+    "formMode": {
+      "create": "Create absence request",
+      "update": "Update absence request"
+    },
+    "form": {
+      "reason": {
+        "label": "Reason",
+        "placeholder": "Enter reason"
+      },
+      "createdAt": {
+        "label": "Created At"
+      },
+      "date": {
+        "label": "Date",
+        "placeholder": "Enter date"
+      },
+      "status": {
+        "label": "Status",
+        "placeholder": "Select status"
+      }
+    },
+    "status": {
+      "active": "Accepted",
+      "pending": "Pending",
+      "inactive": "Rejected"
+    }
+  }
+  

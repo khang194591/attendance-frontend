@@ -4,6 +4,7 @@
       <div class="inline-flex justify-between p-4 w-full">
         <ElButton v-if="true" type="primary" :icon="IconPlus" @click="onCreate">{{ $t('common.button.add') }}</ElButton>
       </div>
+      <AbsenceTable />
       <AbsenceForm />
     </div>
   </div>
@@ -13,6 +14,7 @@
 import { onMounted } from 'vue'
 import { useAbsenceStore } from '../absence.store'
 import AbsenceForm from '../components/AbsenceForm.vue'
+import AbsenceTable from '../components/AbsenceTable.vue'
 import { IconPlus } from '@tabler/icons-vue'
 
 onMounted(async () => {
