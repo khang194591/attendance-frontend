@@ -1,4 +1,11 @@
-import { IconBadgeCc, IconCalendarCheck, IconHome, IconIdBadge2, SVGProps } from '@tabler/icons-vue'
+import {
+  IconBadgeCc,
+  IconCalendarCheck,
+  IconDeviceLaptopOff,
+  IconHome,
+  IconIdBadge2,
+  SVGProps,
+} from '@tabler/icons-vue'
 import { FunctionalComponent } from 'vue'
 import { Action, Resource } from '../interfaces/permissions'
 import { IconSettings } from '@tabler/icons-vue'
@@ -26,6 +33,7 @@ export enum PageName {
   Home = 'home',
   User = 'user',
   Attendance = 'attendance',
+  Absence = 'absence',
   // Settings
   Setting = 'setting',
   SettingRole = 'role',
@@ -52,6 +60,12 @@ export const navigationItems: NavigationItem[] = [
     label: 'attendance',
     icon: IconCalendarCheck,
     requirePermissions: [`${Resource.attendance}#${Action.read_personal}`],
+  },
+  {
+    to: '/absence',
+    name: PageName.Absence,
+    label: 'absence',
+    icon: IconDeviceLaptopOff,
   },
   {
     to: '/setting',

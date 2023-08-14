@@ -33,7 +33,8 @@
       "user": "User management",
       "setting": "Setting",
       "role": "Role Setting",
-      "attendance": "Attendance management"
+      "attendance": "Attendance management",
+      "absence":"Absence request"
     }
   },
   "language": {
